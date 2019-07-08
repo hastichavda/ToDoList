@@ -1,0 +1,32 @@
+.header {
+    background-color: #f37933;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+    width:50%;
+    margin:0 auto;
+  }
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    /* float: left; */
+    font-size: 16px;
+  }
+  .addBtn:hover {
+    background-color:blue;
+  }
+ 
+ul li{
+    background: rgba(241, 237, 237, 0.924);
+    color:black;
+    list-style: none;
+    display: absolute;
+}  
